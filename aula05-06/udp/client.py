@@ -8,8 +8,10 @@ def send_message(host: str, port: int, message: str):
                                    
 if __name__ == '__main__':
     
-    HOST = 'localhost' #IP do servidor
+    HOST = '10.20.22.186' #IP do servidor
     PORT = 9000 #porta do servidor
+
+    name = input('Enter your name: ')
 
     while True:
         message = input('Type your message: ').encode('utf-8')

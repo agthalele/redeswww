@@ -11,8 +11,9 @@ def star_server(host: str, port: int):
         data, adress = server_socket.recvfrom(1024)
         message = data.decode('utf-8')
 
+
+
         print(f'[CLIENT] : {message}')
-        
                                    
 if __name__ == '__main__':
     
